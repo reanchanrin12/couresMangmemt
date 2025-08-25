@@ -13,7 +13,7 @@ routes.get('/course/with-students', getCoursesWithStudents);
 routes.get('/course/list', listCourse);
 routes.put('/course/update/:id', upload.single('thumbnail'), updateCourse);
 routes.delete('/course/delete/:id', deleteCourse);
-routes.get('/course/:id', readCourseById);
+routes.get('/course/read/:id', readCourseById);
 
 
 
